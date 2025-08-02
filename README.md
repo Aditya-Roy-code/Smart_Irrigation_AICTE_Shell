@@ -12,7 +12,6 @@ The Smart Irrigation System leverages sensor data, weather information, and inte
 
 ## 🛠️ Features
 
-- **IoT Sensor Integration:** Real-time monitoring of soil moisture, temperature, and humidity.
 - **Automated Watering:** Intelligent scheduling and control of irrigation based on sensor data and weather forecasts.
 - **Data Logging:** Historical data storage for analysis and reporting.
 - **User Dashboard:** Simple interface for monitoring system status and customizing thresholds.
@@ -20,14 +19,16 @@ The Smart Irrigation System leverages sensor data, weather information, and inte
 
 ---
 
-## 📦 Project Structure
+## 📦 Project Structure (No IoT Sensors)
 
 ```
 Smart_Irrigation_AICTE_Shell/
-├── sensors/          # Sensor integration code
-├── controller/       # Irrigation control logic
+├── simulation/       # Code for simulating sensor data (if needed)
+├── controller/       # Irrigation control logic and scheduling
 ├── dashboard/        # User interface (dashboard/web app)
 ├── data/             # Data logging and storage
+├── docs/             # Documentation and guides
 ├── README.md         # Project documentation
 └── ...               # Other supporting modules and configs
 ```
+
